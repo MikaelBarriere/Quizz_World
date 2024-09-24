@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Parisienne&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Quizz World</title>
+</head>
+<body class="">
+<header>
+    <h1 class="text-white text-center p-5 abril-fatface-regular">Quizz World</h1>
+</header>
+<main class="mx-3">
+    <div class="row row-cols-md-2 row-cols-xxl-4 g-4">
+        <!-- Carte 1 - Applications Web -->
+        <div class="col">
+            <div class="card card-settings text-white parisienne-regular fw-bold rounded-4" data-name="web">
+                <h5 class="card-title text-center fw-bold fs-1 mt-2">Applications Web</h5>
+                <img class="mx-3 rounded-4" src="img/web.jpg" alt="Applications Web">
+                <div class="card-body">
+                    <div class="d-flex inline-block gap-2 d-flex justify-content-center fs-4">
+                        <input class="text-transparent" type="radio" id="debutant_web" name="level_web" value="débutant">
+                        <label for="debutant_web">Débutant</label><br>
+                        <input type="radio" id="confirme_web" name="level_web" value="confirmé">
+                        <label for="confirme_web">Confirmé</label><br>
+                        <input type="radio" id="expert_web" name="level_web" value="expert">
+                        <label for="expert_web">Expert</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Carte 2 - JavaScript -->
+        <div class="col">
+            <div class="card card-settings text-white parisienne-regular fw-bold rounded-4" data-name="javascript">
+                <h5 class="card-title text-center fw-bold fs-1 mt-2">JavaScript</h5>
+                <img class="mx-3 rounded-4" src="img/javascript.png" alt="JavaScript">
+                <div class="card-body">
+                    <div class="d-flex inline-block gap-2 d-flex justify-content-center fs-4">
+                        <input class="text-transparent" type="radio" id="debutant_js" name="level_js" value="débutant">
+                        <label for="debutant_js">Débutant</label><br>
+                        <input type="radio" id="confirme_js" name="level_js" value="confirmé">
+                        <label for="confirme_js">Confirmé</label><br>
+                        <input type="radio" id="expert_js" name="level_js" value="expert">
+                        <label for="expert_js">Expert</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Carte 3 - Le XXème Siècle -->
+        <div class="col">
+            <div class="card card-settings text-white parisienne-regular fw-bold rounded-4" data-name="dates20">
+                <h5 class="card-title text-center fw-bold fs-1 mt-2">Le XXème Siècle</h5>
+                <img class="mx-3 rounded-4" src="img/dates20.jpg" alt="Le XXème Siècle">
+                <div class="card-body">
+                    <div class="d-flex inline-block gap-2 d-flex justify-content-center fs-4">
+                        <input class="text-transparent" type="radio" id="debutant_xxeme" name="level_xxeme" value="débutant">
+                        <label for="debutant_xxeme">Débutant</label><br>
+                        <input type="radio" id="confirme_xxeme" name="level_xxeme" value="confirmé">
+                        <label for="confirme_xxeme">Confirmé</label><br>
+                        <input type="radio" id="expert_xxeme" name="level_xxeme" value="expert">
+                        <label for="expert_xxeme">Expert</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Carte 4 - Nintendo -->
+        <div class="col">
+            <div class="card card-settings text-white parisienne-regular fw-bold rounded-4" data-name="nintendo">
+                <h5 class="card-title text-center fw-bold fs-1 mt-2">Nintendo</h5>
+                <img class="mx-3 rounded-4" src="img/nintendo.jpg" alt="Nintendo">
+                <div class="card-body">
+                    <div class="d-flex inline-block gap-2 d-flex justify-content-center fs-4">
+                        <input class="text-transparent" type="radio" id="debutant_nintendo" name="level_nintendo" value="débutant">
+                        <label for="debutant_nintendo">Débutant</label><br>
+                        <input type="radio" id="confirme_nintendo" name="level_nintendo" value="confirmé">
+                        <label for="confirme_nintendo">Confirmé</label><br>
+                        <input type="radio" id="expert_nintendo" name="level_nintendo" value="expert">
+                        <label for="expert_nintendo">Expert</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Carte 5 - Trouver le Nombre -->
+        <div class="col">
+            <div class="card card-settings text-white parisienne-regular fw-bold rounded-4" data-name="nombres">
+                <h5 class="card-title text-center fw-bold fs-1 mt-2">Trouver le Nombre</h5>
+                <img class="mx-3 rounded-4" src="img/nombres.jpg" alt="Trouver le Nombre">
+                <div class="card-body">
+                    <div class="d-flex inline-block gap-2 d-flex justify-content-center fs-4">
+                        <input class="text-transparent" type="radio" id="debutant_nombres" name="level_nombres" value="débutant">
+                        <label for="debutant_nombres">Débutant</label><br>
+                        <input type="radio" id="confirme_nombres" name="level_nombres" value="confirmé">
+                        <label for="confirme_nombres">Confirmé</label><br>
+                        <input type="radio" id="expert_nombres" name="level_nombres" value="expert">
+                        <label for="expert_nombres">Expert</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Carte 6 - Microsoft -->
+        <div class="col">
+            <div class="card card-settings text-white parisienne-regular fw-bold rounded-4" data-name="microsoft">
+                <h5 class="card-title text-center fw-bold fs-1 mt-2">Microsoft</h5>
+                <img class="mx-3 rounded-4" src="img/microsoft.jpg" alt="Microsoft">
+                <div class="card-body">
+                    <div class="d-flex inline-block gap-2 d-flex justify-content-center fs-4">
+                        <input class="text-transparent" type="radio" id="debutant_microsoft" name="level_microsoft" value="débutant">
+                        <label for="debutant_microsoft">Débutant</label><br>
+                        <input type="radio" id="confirme_microsoft" name="level_microsoft" value="confirmé">
+                        <label for="confirme_microsoft">Confirmé</label><br>
+                        <input type="radio" id="expert_microsoft" name="level_microsoft" value="expert">
+                        <label for="expert_microsoft">Expert</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Carte 7 - PHP -->
+        <div class="col">
+            <div class="card card-settings text-white parisienne-regular fw-bold rounded-4" data-name="php">
+                <h5 class="card-title text-center fw-bold fs-1 mt-2">PHP</h5>
+                <img class="mx-3 rounded-4" src="img/PHP.jpg" alt="PHP">
+                <div class="card-body">
+                    <div class="d-flex inline-block gap-2 d-flex justify-content-center fs-4">
+                        <input class="text-transparent" type="radio" id="debutant_php" name="level_php" value="débutant">
+                        <label for="debutant_php">Débutant</label><br>
+                        <input type="radio" id="confirme_php" name="level_php" value="confirmé">
+                        <label for="confirme_php">Confirmé</label><br>
+                        <input type="radio" id="expert_php" name="level_php" value="expert">
+                        <label for="expert_php">Expert</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Carte 8 - Méandre d'Internet -->
+        <div class="col">
+            <div class="card card-settings text-white parisienne-regular fw-bold rounded-4" data-name="internet">
+                <h5 class="card-title text-center fw-bold fs-1 mt-2">Méandre d'Internet</h5>
+                <img class="mx-3 rounded-4" src="img/internet.jpg" alt="Méandre d'Internet">
+                <div class="card-body">
+                    <div class="d-flex inline-block gap-2 d-flex justify-content-center fs-4">
+                        <input class="text-transparent" type="radio" id="debutant_internet" name="level_internet" value="débutant">
+                        <label for="debutant_internet">Débutant</label><br>
+                        <input type="radio" id="confirme_internet" name="level_internet" value="confirmé">
+                        <label for="confirme_internet">Confirmé</label><br>
+                        <input type="radio" id="expert_internet" name="level_internet" value="expert">
+                        <label for="expert_internet">Expert</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+<script src="js/bootstrap.bundle.js"></script>
+<script src="js/jquery-3.7.1.min.js"></script>
+<script src="js/script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,90 @@
+body {
+    background-color: #4C8FC4;
+}
+
+img {
+    width: auto;
+    height: 210px;
+    object-fit: cover;
+}
+
+.card-settings {
+    background-color: #FF6D00;
+    border: dashed 2px black;
+    box-shadow: 10px 5px black;
+}
+
+.parisienne-regular {
+    font-family: "Parisienne", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.abril-fatface-regular {
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+button {
+    box-shadow: 2px 2px black;
+    border-radius: none;
+    background-color: #FF6D00;
+    border: solid 1px black;
+    padding: 5px;
+    color: white;
+    margin: 30px;
+    padding: 15px;
+}
+
+/* Styles mis à jour pour le drag and drop et l'affichage en ligne */
+.proposition-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 20px;
+
+}
+
+.draggable {
+    cursor: grab;
+    padding: 15px;
+    margin: 30px;
+    background-color: #FF6D00;
+    border: 1px solid black;
+    display: inline-block;
+    box-shadow: 2px 2px black;
+}
+
+.droppable {
+
+    min-height: 50px;
+    height: 150px;
+    width: 20%;
+    min-width: 400px;
+    display: flex;
+    border: 2px dashed #ccc;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.correct-answer {
+    background-color: #4CAF50;
+}
+
+.incorrect-answer {
+    background-color: #F44336;
+}
+
+span {
+    color: #FF6D00;
+}
+/* Sur les écrans, quand la largeur de la fenêtre fait au maximum 1280px */
+@media screen and (max-width: 768px) {
+    .draggable {
+        display: block;
+    }
+}
